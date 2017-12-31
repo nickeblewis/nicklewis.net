@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { FaMapMarker, FaEnvelopeO, FaPaperPlaneO, FaWrench, FaChevronDown, FaChevronUp } from 'react-icons/lib/fa';
+import { FaMapMarker, FaEnvelopeO, FaPaperPlaneO, FaWrench, FaChevronDown, FaChevronUp, FaBriefcase, FaPencil } from 'react-icons/lib/fa';
 import { TiCodeOutline } from 'react-icons/lib/ti';
 
 const ListLink = (props) => (
@@ -26,6 +26,8 @@ class MainNav extends React.Component {
       links: [
         { to: '/', text: 'Home', icon: FaMapMarker },
         { to: '/toolbox/', text: 'Toolbox', icon: FaWrench },
+        { to: '/blog', text: 'Blog', icon: FaPencil },
+        { to: '/services', text: 'Services', icon: FaBriefcase },
         { to: '/contact/', text: 'Contact', icon: FaEnvelopeO }
       ],
       mainNavModifierClassName: '',

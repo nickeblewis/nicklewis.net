@@ -6,20 +6,17 @@ import { FaPaperPlaneO, FaWrench } from 'react-icons/lib/fa';
 const ForHomePageContent = (
   <div className="c-remark-screen__message">
     <p>
-      <b>I'm glad</b><br /> that you're interested in my stuff.
+      <b>It's cool</b><br /> that you're interested in my work.
     </p>
     <p>
-      There's something I want you to remember while you're going over the website.
+      Currently I am open to taking on new work, as I have the capacity.
     </p>
     <p>
-      At present, I'm open to <b>full time on-site job</b> offers (Warsaw or London).
+      At present, I am open to <b>freelance projects / remote contracts</b> with clients across the South of England.
     </p>
     <p>
-      If you realize that I would be a good fit, drop me
-      a message at <b><Obfuscate email='greglobinski@gmail.com' /></b>.
-    </p>
-    <p>
-      Thank you. Now, you're free to go further.
+      If you are currently looking for someone to develop (or re-develop) your website, drop me
+      a message at <b><Obfuscate email='nick@nicklewis.net' /></b>.
     </p>
   </div>
 );
@@ -49,7 +46,7 @@ const ForContactPageContent = (
 const RemarkScreen = (props) => {
   const links = [
     { path: 'toolbox', icon: FaWrench },
-    //{ path: 'playground', icon: FaPaperPlaneO }
+    { path: 'services', icon: FaPaperPlaneO }
   ];
 
   return (
