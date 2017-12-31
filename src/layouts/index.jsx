@@ -10,8 +10,8 @@ require("typeface-roboto");
 import ActionButtonContainer from '../containers/ActionButtonContainer';
 import RemarkScreenContainer from '../containers/RemarkScreenContainer';
 
-import MainFooter from '../components/MainFooter'; 
-import MainHeader from '../components/MainHeader'; 
+import MainFooter from '../components/MainFooter';
+import MainHeader from '../components/MainHeader';
 
 class DefaultLayout extends React.Component {
 
@@ -19,13 +19,13 @@ class DefaultLayout extends React.Component {
     return (
       <div className="l-page-wrapper">
         <Helmet
-          title="I am a front-end developer"
-          meta={[{ 
-            name: 'description', 
-            content: `I build web interfaces using: JavaScrip, ES2015, Babel, HTML5, CSS, CSS3, BEM, React, Gatsby, Webpack ...` 
+          title="Web developer"
+          meta={[{
+            name: 'description',
+            content: `I build web interfaces using: JavaScript, ES2015, Babel, HTML5, CSS, CSS3, BEM, React, Gatsby, Webpack ...` 
           }]}
-        />    
-          
+        />
+
         <div className={`l-page-container ${this.props.remarkScreenisActive && 'is-blurred'}`}>
           <MainHeader />
           <main className="l-main">
@@ -35,18 +35,18 @@ class DefaultLayout extends React.Component {
         </div>
         {
           (this.props.location.pathname === '/'
-          || this.props.location.pathname === '/contact/') 
-          && 
-          <ActionButtonContainer 
+          || this.props.location.pathname === '/contact/')
+          &&
+          <ActionButtonContainer
             locationPathName={this.props.location.pathname}
           />
-        }  
-        <RemarkScreenContainer 
+        }
+        <RemarkScreenContainer
           locationPathName={this.props.location.pathname}
         />
       </div>
     )
-  }  
+  }
 }
 
 const mapStateToProps = (state, ownProps) => {
@@ -58,4 +58,3 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(DefaultLayout);
-

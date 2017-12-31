@@ -15,7 +15,7 @@ const ForHomePageContent = (
       At present, I'm open to <b>full time on-site job</b> offers (Warsaw or London).
     </p>
     <p>
-      If you realize that I would be a good fit, drop me 
+      If you realize that I would be a good fit, drop me
       a message at <b><Obfuscate email='greglobinski@gmail.com' /></b>.
     </p>
     <p>
@@ -30,14 +30,14 @@ const ForContactPageContent = (
       <b>Hi there</b><br /> Before you leave
     </p>
     <p>
-      I want you to remember that at present, I am open to <b>full time on-site job</b> offers (Warsaw or London).
+      I want you to know that at present, I am open to <b>full time remote contract</b> offers (Uk or Europe).
     </p>
     <p>
-      If you feel that you want me on your team, drop me 
-      a message at <b><Obfuscate email='greglobinski@gmail.com' /></b>.
+      If you feel that you want me on your team, drop me
+      a message at <b><Obfuscate email='nick@nicklewis.net' /></b>.
     </p>
     <p>
-      
+
     </p>
     <p>
       Thank you<br />
@@ -46,9 +46,9 @@ const ForContactPageContent = (
   </div>
 );
 
-const RemarkScreen = (props) => { 
-  const links = [ 
-    { path: 'toolbox', icon: FaWrench }, 
+const RemarkScreen = (props) => {
+  const links = [
+    { path: 'toolbox', icon: FaWrench },
     //{ path: 'playground', icon: FaPaperPlaneO }
   ];
 
@@ -58,17 +58,17 @@ const RemarkScreen = (props) => {
       {props.locationPathName === '/' &&
         <div className="c-remark-screen__links">
           {
-            links.map((link) => (        
-              <Link 
+            links.map((link) => (
+              <Link
                 key={link.path}
-                className="c-remark-screen__link" 
+                className="c-remark-screen__link"
                 to={`/${link.path}/`}
                 onClick={props.onClick}
                 tabIndex={props.isActive ? '1' : '-1'}
               >
                 <link.icon /> {link.path}
               </Link>)
-            ) 
+            )
           }
         </div>
       }

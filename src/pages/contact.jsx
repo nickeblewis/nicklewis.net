@@ -15,37 +15,37 @@ export default props => {
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
           <FaEnvelopeO />
-          <Obfuscate email="greglobinski@gmail.com" />
+          <Obfuscate email="nick@nicklewis.net" />
         </li>
         <li className="c-contact-list__item">
           <FaTwitter />
           <a
-            href="https://twitter.com/greglobinski"
+            href="https://twitter.com/nicklewis"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @greglobinski
+            @nicklewis
           </a>
         </li>
         <li className="c-contact-list__item">
           <FaGithub />
           <a
-            href="https://github.com/greglobinski"
+            href="https://github.com/nickeblewis"
             target="_blank"
             rel="noopener noreferrer"
           >
-            greglobinski
+            nickeblewis
           </a>
         </li>
       </ul>
       <h2
         className={`
         js-action-button-anchor
-        c-content-box__subheadline 
+        c-content-box__subheadline
         c-content-box__subheadline--with-button
       `}
       >
-        Do not forget
+        I am looking!
       </h2>
     </div>
   );
