@@ -26,8 +26,8 @@ class MainNav extends React.Component {
       links: [
         { to: '/', text: 'Home', icon: FaMapMarker },
         { to: '/toolbox/', text: 'Toolbox', icon: FaWrench },
-        { to: '/blog', text: 'Blog', icon: FaPencil },
-        { to: '/services', text: 'Services', icon: FaBriefcase },
+        { to: '/blogs', text: 'Blogs', icon: FaPencil },
+        // { to: '/services', text: 'Services', icon: FaBriefcase },
         { to: '/contact/', text: 'Contact', icon: FaEnvelopeO }
       ],
       mainNavModifierClassName: '',
