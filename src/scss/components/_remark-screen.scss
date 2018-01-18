@@ -1,9 +1,9 @@
-.c-remark-screen {  
-  background: $orange-color;
+.c-remark-screen {
+  background: $blue-color;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  right: -120%;  
+  right: -120%;
   min-height: 100vh;
   max-width: 80%;
   padding: 2em 2.5em 0 1.6em;
@@ -11,7 +11,7 @@
   transition: .5s ease-out;
   transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
   top: 0;
-  z-index: 90;  
+  z-index: 90;
 }
 
 .c-remark-screen--is-active {
@@ -62,7 +62,7 @@
 }
 
 .c-remark-screen__link {
-  background: lighten($orange-color, 8%);
+  background: lighten($blue-color, 8%);
   border: none;
   border-radius: .2em;
   color: $white-color;
@@ -83,12 +83,12 @@
 }
 
 .c-remark-screen__bg {
-  background: $orange-color;
+  background: $blue-color;
   position: absolute;
   top: 0;
   left: -20px;
   width: 100px;
-  height: 100%;   
+  height: 100%;
   transform: skewX(-2deg);
   z-index: -1;
 }
@@ -119,4 +119,4 @@
     font-size: 1.1em;
     max-width: 22em;
   }
-}  
+}

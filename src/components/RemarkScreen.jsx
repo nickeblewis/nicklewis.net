@@ -6,10 +6,13 @@ import { FaPaperPlaneO, FaWrench } from 'react-icons/lib/fa';
 const ForHomePageContent = (
   <div className="c-remark-screen__message">
     <p>
-      <b>It's cool</b><br /> that you're interested in my work.
+      <b>Let me tell you</b><br /> a little bit more about what I do.
     </p>
     <p>
-      Currently I am open to taking on new work, as I have the capacity.
+      I build mobile-first websites for businesses and individuals and I
+      help my clients develop their content strategy for their sites.
+      This process evolves over time and remains a continual part of each
+      client relationship that I develop.
     </p>
     <p>
       At present, I am open to <b>freelance projects / remote contracts</b> with clients across the South of England.
