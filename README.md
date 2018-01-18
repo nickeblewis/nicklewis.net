@@ -1,12 +1,6 @@
-# greglobinski.com
+# nicklewis.net
 
-That's the code of my website (greglobinski.com). My first production-use of the Gatsby-React tandem.
-
-
-
-## Screenshots
-![](static/assets/readme-screens.png)
-
+That's the code of my website (nicklewis.net). My first production-use of the Gatsby-React tandem.
 
 
 ### Build with
